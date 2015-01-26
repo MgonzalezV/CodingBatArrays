@@ -48,7 +48,7 @@ public int[] swapEnds(int[] nums) {
             }
         });
 
-        jLabel1.setText("jLabel1");
+        jLabel1.setText("Solución ...");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -80,6 +80,7 @@ public int[] swapEnds(int[] nums) {
         int[] listaNumeros = {1,2,3,4};
         int [] nums = swapEnds(listaNumeros);
         jLabel1.setText(String.valueOf(nums[0])+(nums[1])+(nums[2])+(nums[3]));
+        
     }//GEN-LAST:event_jButton1MousePressed
 
     /**
